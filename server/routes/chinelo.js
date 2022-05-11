@@ -6,6 +6,3 @@ router.get('/', (req, res) => {
 })
 
 module.exports = router
-© 2022 GitHub, Inc.
-Terms
-Privacy
