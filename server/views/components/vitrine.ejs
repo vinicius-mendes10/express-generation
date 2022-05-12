@@ -1,0 +1,9 @@
+<section>
+    <% if(locals.produtos && locals.produtos.length) { %>
+    <h2>Todos os produtos</h2>
+    <% for(let produto of produtos) { %>
+    <%- include('./card', {produto} ) %>
+    <% } %>
+    <% } else { %>
+    <h2>Sem produtos por hoje... Volte mais tarde.</h2>
+    <% } %>
